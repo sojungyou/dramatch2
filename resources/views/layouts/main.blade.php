@@ -16,11 +16,20 @@
   <!-- Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/album.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/carousel.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/index.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/content.css') }}" rel="stylesheet">
+    @if(app('env')=='local')
+      <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+      <link href="{{ asset('css/album.css') }}" rel="stylesheet">
+      <link href="{{ asset('css/carousel.css') }}" rel="stylesheet">
+      <link href="{{ asset('css/index.css') }}" rel="stylesheet">
+      <link href="{{ asset('css/content.css') }}" rel="stylesheet">
+    @endif
+    @if(app('env')=='production')
+      <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+      <link href="{{ secure_asset('css/album.css') }}" rel="stylesheet">
+      <link href="{{ secure_asset('css/carousel.css') }}" rel="stylesheet">
+      <link href="{{ secure_asset('css/index.css') }}" rel="stylesheet">
+      <link href="{{ secure_asset('css/content.css') }}" rel="stylesheet">
+    @endif
 
     <link rel=”icon” href=“/images/favicon.ico”>
 </head>
