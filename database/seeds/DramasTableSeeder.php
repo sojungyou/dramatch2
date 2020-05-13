@@ -12,17 +12,38 @@ class DramasTableSeeder extends Seeder
     public function run()
     {
         DB::table('dramas')->insert([
-            'title' => 'モダン・ラブ ～今日もNYの街角で～',
-            'subtitle' => 'Modern Love',
-            'image_path' => 'https://i.gyazo.com/a25761d3835aea29331a931adbee7e06.png',
-            'story' => '思いも寄らない人物との友情。失恋のやり直し。転換期を迎えた結婚生活。デートとは言えないかもしれないデート。型にはまらない形の家族。これらすべては、ニューヨーク・タイムズ紙の人気コラム「Modern Love」に実際に投稿されたエッセーに基づく、愛の喜びや苦悩についてのユニークな物語だ。',
-            'genre' => ' ロマンティック・コメディ',
-            'releaseDate' => '2019年10月18日',
-            'country' => 'アメリカ',
-            'cast' => 'アン・ハサウェイ / ティナ・フェイ / デヴ・パテル / キャサリン・キーナー',
-            'video_path' => 'https://www.youtube.com/embed/m3MjhYFpJMk'
+            'title' => '愛の不時着',
+            'subtitle' => '사랑의 불시착／CRASH LANDING ON YOU',
+            'image_path' => 'https://i.gyazo.com/706e7c0e5b96c4283f1bff9e0df63cbe.png',
+            'story' => 'パラグライダー中に思わぬ事故に巻き込まれ、北朝鮮に不時着してしまった韓国の財閥令嬢。そこで出会った堅物の将校の家で、身分を隠して暮らすことになるが...。',
+            'genre' => ' コメディ/恋愛',
+            'releaseDate' => '2020年02月23日',
+            'country' => '韓国',
+            'cast' => 'ヒョンビン / ソン・イェジン /  ソ・ジヘ  / キム・ジョンヒョン',
+            'video_path' => 'https://www.youtube.com/embed/zPe5AdGCszc'
         ]);
-      
+        DB::table('dramas')->insert([
+            'title' => 'プリズン・ブレイク',
+            'subtitle' => 'Prison Break ',
+            'image_path' => 'https://i.gyazo.com/046f8b17cc1cfec07a10be0e119d450d.png',
+            'story' => 'マイケルは何不自由なく暮らす優秀な建築設計士。しかしある日、兄のリンカーンが副大統領の兄弟殺しの罪で逮捕され、死刑判決を受けたことから人生が一変する。異例のスピード判決、無罪を主張し続ける兄……得体の知れない陰謀に巻き込まれた兄を合法的に助けることは不可能だと知ったマイケルは、武装強盗を犯し自ら犯罪者となって兄と同じ刑務所へ入る。兄とともに脱出するために……。',
+            'genre' => 'アクション サスペンスドラマ',
+            'releaseDate' => '2005年8月29日',
+            'country' => 'アメリカ',
+            'cast' => 'ウェントワース・ミラードミニク・パーセルピーター・ストーメアロバート・ネッパー',
+            'video_path' => 'https://www.youtube.com/embed/AL9zLctDJaU'
+        ]);
+        DB::table('dramas')->insert([
+            'title' => 'ジ・エディ',
+            'subtitle' => 'The Eddy',
+            'image_path' => 'https://i.gyazo.com/023883be5ca60cafb205eb9c1a9e1f8f.png',
+            'story' => '多彩な文化が咲き誇る花の都パリで、危機に直面したジャズ・クラブの運命を描く。「ラ・ラ・ランド」のデイミアン・チャゼル監督が贈るミュージカルドラマ。',
+            'genre' => 'ミュージカルドラマ',
+            'releaseDate' => '2020年05月08日',
+            'country' => 'イギリス・ドイツ ・アメリカ',
+            'cast' => 'アンドレ・ホランド  / ヨアンナ・クーリグ/ アマンドル・ステンバーグ/ レイラ・ベクティ',
+            'video_path' => 'https://www.youtube.com/embed/BMUPp_hNMlM'
+        ]);
     }
 }
 
