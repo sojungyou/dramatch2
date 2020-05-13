@@ -12,37 +12,37 @@ class DramasTableSeeder extends Seeder
     public function run()
     {
         DB::table('dramas')->insert([
-            'title' => '愛の不時着',
-            'subtitle' => '사랑의 불시착／CRASH LANDING ON YOU',
-            'image_path' => 'https://i.gyazo.com/706e7c0e5b96c4283f1bff9e0df63cbe.png',
-            'story' => 'パラグライダー中に思わぬ事故に巻き込まれ、北朝鮮に不時着してしまった韓国の財閥令嬢。そこで出会った堅物の将校の家で、身分を隠して暮らすことになるが...。',
+            'title' => 'ロマンスは別冊付録',
+            'subtitle' => '로맨스는 별책부록/Romance Is a Bonus Book',
+            'image_path' => 'https://i.gyazo.com/5b88960c63cb75a6c75f0d6b24bca1db.png',
+            'story' => '記録的な若さで編集長の座についた天才作家と、どうしても仕事が欲しい元人気コピーライター。出版社の中でつづられるのは、どんな小説よりも甘く切ない恋物語。',
             'genre' => ' コメディ/恋愛',
-            'releaseDate' => '2020年02月23日',
+            'releaseDate' => '2019年03月18日',
             'country' => '韓国',
-            'cast' => 'ヒョンビン / ソン・イェジン /  ソ・ジヘ  / キム・ジョンヒョン',
-            'video_path' => 'https://www.youtube.com/embed/zPe5AdGCszc'
+            'cast' => 'イ・ジョンソク/ イ・ナヨン /チョン・ユジン',
+            'video_path' => 'https://www.youtube.com/embed/SvL_9__KTFw'
         ]);
         DB::table('dramas')->insert([
-            'title' => 'プリズン・ブレイク',
-            'subtitle' => 'Prison Break ',
-            'image_path' => 'https://i.gyazo.com/046f8b17cc1cfec07a10be0e119d450d.png',
-            'story' => 'マイケルは何不自由なく暮らす優秀な建築設計士。しかしある日、兄のリンカーンが副大統領の兄弟殺しの罪で逮捕され、死刑判決を受けたことから人生が一変する。異例のスピード判決、無罪を主張し続ける兄……得体の知れない陰謀に巻き込まれた兄を合法的に助けることは不可能だと知ったマイケルは、武装強盗を犯し自ら犯罪者となって兄と同じ刑務所へ入る。兄とともに脱出するために……。',
-            'genre' => 'アクション サスペンスドラマ',
-            'releaseDate' => '2005年8月29日',
+            'title' => 'ザ・ボーイズ',
+            'subtitle' => 'The Boys',
+            'image_path' => 'https://i.gyazo.com/06742ab5892070190c7e28936d498c43.png',
+            'story' => '欲と名声にとりつかれたスーパーヒーローたち。非公式に「ザ・ボーイズ」と呼ばれるグループが腐敗したスーパーヒーローたちを倒そうとする。特殊能力を持たない彼らは根性と信念で悪しきヒーローに立ち向かう。',
+            'genre' => 'アクションドラマ',
+            'releaseDate' => '2019年07月26日',
             'country' => 'アメリカ',
-            'cast' => 'ウェントワース・ミラードミニク・パーセルピーター・ストーメアロバート・ネッパー',
-            'video_path' => 'https://www.youtube.com/embed/AL9zLctDJaU'
+            'cast' => 'カール・アーバン / ジャック・クエイド / アントニー・スター / ジェニファー・エスポジート',
+            'video_path' => 'https://www.youtube.com/embed/06rueu_fh30'
         ]);
         DB::table('dramas')->insert([
-            'title' => 'ジ・エディ',
-            'subtitle' => 'The Eddy',
-            'image_path' => 'https://i.gyazo.com/023883be5ca60cafb205eb9c1a9e1f8f.png',
-            'story' => '多彩な文化が咲き誇る花の都パリで、危機に直面したジャズ・クラブの運命を描く。「ラ・ラ・ランド」のデイミアン・チャゼル監督が贈るミュージカルドラマ。',
-            'genre' => 'ミュージカルドラマ',
-            'releaseDate' => '2020年05月08日',
-            'country' => 'イギリス・ドイツ ・アメリカ',
-            'cast' => 'アンドレ・ホランド  / ヨアンナ・クーリグ/ アマンドル・ステンバーグ/ レイラ・ベクティ',
-            'video_path' => 'https://www.youtube.com/embed/BMUPp_hNMlM'
+            'title' => 'ブラック・ミラー シーズン1',
+            'subtitle' => 'Black Mirror ',
+            'image_path' => 'https://i.gyazo.com/a06cd52f89545c0ec55ada2cb0110063.png',
+            'story' => '自分の存在を投げ出すことを要求された人間、記憶装置が埋め込まれる近未来など、あり得そうな現実を描いたSFドラマ・シリーズ。',
+            'genre' => 'SFドラマ',
+            'releaseDate' => '2011年12月4日',
+            'country' => 'イギリス',
+            'cast' => 'ロリー・キニアリンゼイ・ダンカンドナルド・サンプタートム・グッドマン=ヒル',
+            'video_path' => 'https://www.youtube.com/embed/nSDviEdvw4U'
         ]);
     }
 }
