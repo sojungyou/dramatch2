@@ -12,15 +12,15 @@ class DramasTableSeeder extends Seeder
     public function run()
     {
         DB::table('dramas')->insert([
-            'title' => 'ロマンスは別冊付録',
-            'subtitle' => '로맨스는 별책부록/Romance Is a Bonus Book',
-            'image_path' => 'https://i.gyazo.com/5b88960c63cb75a6c75f0d6b24bca1db.png',
-            'story' => '記録的な若さで編集長の座についた天才作家と、どうしても仕事が欲しい元人気コピーライター。出版社の中でつづられるのは、どんな小説よりも甘く切ない恋物語。',
-            'genre' => 'コメディ/恋愛',
-            'releaseDate' => '2019年03月18日',
-            'country' => '韓国',
-            'cast' => 'イ・ジョンソク/ イ・ナヨン /チョン・ユジン',
-            'video_path' => 'https://www.youtube.com/embed/SvL_9__KTFw'
+            'title' => 'モダン・ラブ ～今日もNYの街角で～',
+            'subtitle' => 'Modern Love',
+            'image_path' => 'https://i.gyazo.com/a25761d3835aea29331a931adbee7e06.png',
+            'story' => '思いも寄らない人物との友情。失恋のやり直し。転換期を迎えた結婚生活。デートとは言えないかもしれないデート。型にはまらない形の家族。これらすべては、ニューヨーク・タイムズ紙の人気コラム「Modern Love」に実際に投稿されたエッセーに基づく、愛の喜びや苦悩についてのユニークな物語だ。',
+            'genre' => ' ロマンティック・コメディ',
+            'releaseDate' => '2019年10月18日',
+            'country' => 'アメリカ',
+            'cast' => 'アン・ハサウェイ / ティナ・フェイ / デヴ・パテル / キャサリン・キーナー',
+            'video_path' => 'https://www.youtube.com/embed/m3MjhYFpJMk'
         ]);
       
     }
