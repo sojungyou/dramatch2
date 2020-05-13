@@ -33,6 +33,7 @@ class DramasTableSeeder extends Seeder
             'cast' => 'ジェニファー・アニストンコートニー・コックスリサ・クドローマット・ルブランクマシュー・ペリー',
             'video_path' => 'https://www.youtube.com/embed/SHvzX2pl2ec'
         ]);
-
+        
+    }
 }
 
