@@ -12,15 +12,15 @@ class DramasTableSeeder extends Seeder
     public function run()
     {
         DB::table('dramas')->insert([
-            'title' => 'ジ・エディ',
-            'subtitle' => 'The Eddy',
-            'image_path' => 'https://i.gyazo.com/023883be5ca60cafb205eb9c1a9e1f8f.png',
-            'story' => '多彩な文化が咲き誇る花の都パリで、危機に直面したジャズ・クラブの運命を描く。「ラ・ラ・ランド」のデイミアン・チャゼル監督が贈るミュージカルドラマ。',
-            'genre' => 'ミュージカルドラマ',
-            'releaseDate' => '2020年05月08日',
-            'country' => 'イギリス・ドイツ ・アメリカ',
-            'cast' => 'アンドレ・ホランド  / ヨアンナ・クーリグ/ アマンドル・ステンバーグ/ レイラ・ベクティ',
-            'video_path' => 'https://www.youtube.com/embed/BMUPp_hNMlM'
+            'title' => 'ロマンスは別冊付録',
+            'subtitle' => '로맨스는 별책부록/Romance Is a Bonus Book',
+            'image_path' => 'https://i.gyazo.com/5b88960c63cb75a6c75f0d6b24bca1db.png',
+            'story' => '記録的な若さで編集長の座についた天才作家と、どうしても仕事が欲しい元人気コピーライター。出版社の中でつづられるのは、どんな小説よりも甘く切ない恋物語。',
+            'genre' => 'コメディ/恋愛',
+            'releaseDate' => '2019年03月18日',
+            'country' => '韓国',
+            'cast' => 'イ・ジョンソク/ イ・ナヨン /チョン・ユジン',
+            'video_path' => 'https://www.youtube.com/embed/SvL_9__KTFw'
         ]);
       
     }
